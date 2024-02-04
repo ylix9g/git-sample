@@ -1,10 +1,10 @@
 public class ApplicationMain {
 
     public static void main(String[] args) {
-        System.out.println("--- Application ---");
+        System.out.println("--- Application message ---");
 
-        for (int i = 0; i < 3; i++) {
-            System.out.println(i);
+        while (true) {
+            System.out.println("abc");
         }
     }
 }
